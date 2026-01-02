@@ -26,3 +26,4 @@ export const createlogger = (options: createloggeroptions ): Logger => {
       ...pinoOptions,
     });
 }
+export type { Logger } from "pino";
